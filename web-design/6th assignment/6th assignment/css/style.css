@@ -1,0 +1,72 @@
+
+.text{
+text-align:center;
+font-size:50px;
+margin-top:100px;
+text-shadow:10px 10px 5px green;
+}
+
+.box{
+      width:300px;
+      height:200px;
+	  margin:auto;
+	  margin-left:200px;
+      margin-bottom:100px;
+      box-shadow:20px 20px 10px red;
+      background:linear-gradient(to top left, red,blue,green);
+      float:left;
+      border-radius:40px;
+     
+	  
+	  animation-name: jitshil;
+	  animation-duration:5s;
+	  position:absolute;
+	  animation-direction:alternate;
+	  animation-iteration-count:1;
+
+
+}
+.img img{
+      width:300px;
+      height:200px;
+	  display:block;
+	  margin:auto;
+	  margin-right:200px;
+	  margin-bottom:100px;
+	  box-shadow:20px 20px 10px red;
+	  overflow:hidden;
+	  border-radius:40px;
+	  
+	 
+}
+
+.gradient{
+  width:200px;
+  height:200px;
+  background-color:liner-gradient(yellow,red,blue);
+
+}
+.box:hover{
+width:400px;
+height:300px;
+transition:height 3s,width 1s;
+transition-delay: 1s;
+
+}
+.img img:hover{
+width:400px;
+height:300px;
+transition:height 3s,width 1s;
+transition-delay: 1s;
+}
+
+
+@keyframes jitshil {
+
+      0% {background: #ADFF2F; left:200px; top:300px;}
+	   25% {background-color:#FFB6C1;left:150px;  top:0px;}
+	   50%{background-color:#FF00FF ;left:600px;   top:0px;}
+	   75% {background-color:#D3D3D3 ;left:600px;   top:300px;}
+	   100%{background-color:#008000; left:150px;   top:300px;}
+	   
+}

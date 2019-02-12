@@ -1,0 +1,28 @@
+body{
+ background:gray;
+}
+small{
+ color:red !important;
+}
+
+.box1{
+ height:150px;
+ background:#FFA500; 
+}
+.box2{
+ height:150px;
+ background:#008000; 
+}
+.box3{
+ height:150px;
+ background:#FFA07A; 
+}
+.box4{
+ height:150px;
+ background:#FFFF00; 
+}
+.button{
+overflow:hidden;
+color:red;
+margin-bottom:30px;
+}

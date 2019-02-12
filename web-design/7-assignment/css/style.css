@@ -1,0 +1,48 @@
+
+.box{
+ height:300px;
+ width:300px;
+ background:green;
+ margin:auto;
+ margin-top:200px;
+ position:relative;
+}
+.box:hover{
+ background:#353b48;
+ transform:rotate(-10000deg);
+ transition:11s;
+}
+.box:before{
+  content: ' ';
+  display:block;
+  clear:both;
+  background:yellow;
+  width:100px;
+  height:100px;
+  position:absolute;
+  left:-100px;
+  top:-100px;
+}
+.box:after{
+  content:' ';
+  display:block;
+  clear:both;
+  background:red;
+  width:100px;
+  height:100px;
+   position:absolute;
+  left:100%;
+  top:100%;
+
+}
+.box:hover:after{
+  left:-100px;
+  top:-100px;
+  transition:1s;
+}
+.box:hover:before{
+  left:100%;
+  top:100%;
+  transition:1s;
+
+}

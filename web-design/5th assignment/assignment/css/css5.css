@@ -1,0 +1,112 @@
+body{
+background-image:url("image.jpg");
+
+}
+.icon i {
+font-size:100px;
+margin:25px;
+}
+
+}
+a:visited{
+color:blue;
+}
+a:hover{
+color:green;
+}
+a:active{
+color:red;
+}
+
+
+h1{
+text-align:center;
+background:yellow;
+}
+.list{
+text-align:center;
+background:green;
+list-style:square;
+}
+
+
+
+h2{
+border-style:inset;
+border-color:green;
+margin-top:50px;
+margin-right:400px;
+margin-left:400px;
+border-width:10px;
+padding:10px;
+text-align:center;
+font-size:30px;
+color:red;
+}
+table,th,td{
+border:1px solid red;
+padding:10px;
+text-align:center;
+}
+td
+{
+width:100px;
+}
+th{
+width:500px;
+}
+
+
+
+.facebook{
+text-align:center;
+display:block;
+background:yellow;
+text-decoration: none;
+font-size:30px;
+}
+.combinators > p{
+background:gray;
+text-align:center;
+}
+.pseudo p:hover  {
+color:red;
+}
+.pseudo p::first-line {
+font-size:35px;
+color:green;
+}
+.pseudo p:after{
+ content:url("pic/smiley.gif");
+}
+.pseudo p{
+font-style:italic;
+}
+img{
+opacity:0.5;
+display:block;
+margin:1px auto;
+width:500px;
+}
+.form{
+font-size:30px;
+color:red;
+text-align:center;
+}
+input[type=text],input[type=email],input[type=password]{
+height:30px;
+width:400px;
+}
+input[type=comment]{
+height:100px;
+width:400px
+}
+input[type=submit]{
+height:30px;
+width:200px;
+background-color:green;
+font-size:20px;
+}
+
+
+

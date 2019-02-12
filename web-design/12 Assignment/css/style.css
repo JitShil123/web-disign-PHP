@@ -1,0 +1,32 @@
+body{
+ background:gray;
+}
+
+
+.box{
+  background:green;
+  width:300px;
+  height:200px;
+  margin-top:100px;
+  margin:auto;
+}
+.box1{
+
+	height:100px;
+	width: 400px;
+
+	background:orange;
+	
+}
+
+.submit{
+display: block;
+
+}
+.add{
+	height:50px;
+	width:150px;
+	background:white;
+	margin:auto;
+	text-align:center;
+}
